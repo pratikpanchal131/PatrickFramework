@@ -1,0 +1,6 @@
+framework module Pods_PatrickFramework_Example {
+  umbrella header "Pods-PatrickFramework_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

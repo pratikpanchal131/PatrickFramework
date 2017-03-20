@@ -1,0 +1,6 @@
+framework module Pods_PatrickFramework_Tests {
+  umbrella header "Pods-PatrickFramework_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

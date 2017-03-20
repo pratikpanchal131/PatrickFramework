@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PatrickFramework'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PatrickFramework.'
+  s.summary          = 'Testing With Storyboard'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+First cocoapods with XIB and Storyboards created by Pratik Panchal
                        DESC
 
   s.homepage         = 'https://github.com/pratikpanchal131/PatrickFramework'
@@ -30,11 +30,18 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PatrickFramework/Classes/**/*'
+ # s.source_files = 'PatrickFramework/Classes/**/*'
   
   # s.resource_bundles = {
   #   'PatrickFramework' => ['PatrickFramework/Assets/*.png']
   # }
+
+
+ s.source_files = 'PatrickFramework/Classes/**/*.{swift}'
+  s.resource_bundles = {
+    'PatrickFramework' => ['PatrickFramework/Classes/**/*.{storyboard,xib}']
+  }
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

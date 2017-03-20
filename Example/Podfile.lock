@@ -1,0 +1,16 @@
+PODS:
+  - PatrickFramework (0.1.0)
+
+DEPENDENCIES:
+  - PatrickFramework (from `../`)
+
+EXTERNAL SOURCES:
+  PatrickFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PatrickFramework: a7108dcbf8bea61fc3851876a6732944378a07f9
+
+PODFILE CHECKSUM: 63c573716d0bd8ccde9ae5cf4f0f07da1eceb36a
+
+COCOAPODS: 1.2.0
