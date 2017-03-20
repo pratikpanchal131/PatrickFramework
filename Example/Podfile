@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PatrickFramework_Example' do
+  pod 'PatrickFramework', :path => '../'
+
+  target 'PatrickFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
