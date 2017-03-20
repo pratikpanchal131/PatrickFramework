@@ -1,0 +1,12 @@
+PODS:
+  - PatrickFramework (0.1.0)
+
+DEPENDENCIES:
+  - PatrickFramework
+
+SPEC CHECKSUMS:
+  PatrickFramework: 6706a0ae97f563ce09ec9b7cf48d04e0c4c8366a
+
+PODFILE CHECKSUM: d35f53c3315d084df9725520dd97255045565762
+
+COCOAPODS: 1.2.0
